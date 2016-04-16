@@ -1,0 +1,2 @@
+Ly do: Dat card bridge la card eth1
+CHuyen card bridge sang eth0 la duoc. Reboot

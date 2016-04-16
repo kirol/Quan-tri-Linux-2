@@ -1,0 +1,4 @@
+http://sshmenu.sourceforge.net/articles/transparent-mulithop.html
+
+http://www.gentoo.org/doc/vi/keychain-guide.xml?style=printable
+http://unixwiz.net/techtips/ssh-agent-forwarding.html#agent

@@ -1,0 +1,4 @@
+su root
+vi /etc/pam.d/gdm
+comment out line by prefixing #.
+# auth required pam_succeed_if.so user != root quiet

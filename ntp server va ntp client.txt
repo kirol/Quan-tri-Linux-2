@@ -1,0 +1,25 @@
+May server 2 card mang, mot card noi may client, mot card noi ra ngoai internet
+
+http://dan.drydog.com/ntp.html
+them chu net truoc chu mask
+restrict 192.168.0.0 netmask 255.255.255.0 
+
+ntpdate 
+
+
+I get this message when ntpd starts: ntpdate: no server suitable for synchronization found 
+That's not necessarily an error. Many times ntpdate doesn't trust the time server(s) it's talking to and ignores it (or them). ntpdate is really not needed--it sets the time immediately before the ntpd server starts. ntpd will gradually adjusts the time over a few minutes or several hours depending on how out of sync the local time is. To really see if ntpd is working, wait about 20 minutes after starting ntpd and type the following: ntpq -c peers
+
+
+Tren server
+vi /etc/ntp.conf
+restrict 192.168.146.0 netmask 255.255.255.0
+service ntpd restart
+
+
+Tren client 
+vi /etc/ntp.conf
+server diachimayserver
+service ntpd restart
+service ntpd stop
+ntpdate diachimayserver

@@ -1,0 +1,36 @@
+fdisk: by which of the following commands a device can be partition in Linux, create change delete or display the partitions on a hard disk (phan vung)
+mkfs: format/make filesystem (dinh dang)
+mke2fs" create an ext2/3 filesystem
+maximum number of partitions that Linux kernel supports for IDE drives: 63 (4 primary/extended and 59 logical)
+tune2fs: sets parameters for ext2 and ext3 filesystems
+e2label: will display or change the file system label on the ext2 file system located on the specified device
+warnquota: is used to check the disk quota for each filesystem and to mail a warning message to a user who has reached his/her softlimit
+edquota: edit user quota
+quota: display disk usage and limit
+repquota: create a report of the disk quota of all users	
+/proc/module = lsmod: The file displays a list of all modules loaded into the kernel
+/proc/version = uname -v: the file specifies the version of the Linux kernel, as well as the version of Red Hat Enterprise Linux installed on the system
+/proc/mdstat: the file provides the cureent status of all Raid devices.
+/proc/stat: the file contains different statistics about the system since it was last restated
+modinfo: displays module name or filename
+init q or init Q: tell init to re-examine the /etc/inittab file.
+chkconfig: can be used to list the installed services and their associated runlevels
+sticky bit: it allows only the owner or root to delete or rename files
+mtr: is a network diagnostic tool that combines the functionality of the traceroute and ping programs in a single network diagnostic tool
+swapon: after creating the swap area, swapon to start using it
+mkswap: make new SWAP partition
+sysctl: modify kernel parameters at runtime
+rpm -K, rpm -V, rpm --checksig: verify the PGP signature 
+fsck: run automatically during the next boot to scan the hard disk for the possibility of file system damage; check and repair file system
+sudo ethtool eth0: view the speed and the duplex for this Ethernet card
+/etc/fstab: lists the file systems to be mounted automatically at startup
+chown: change ownership of a file to a user
+chgrp: change ownership of a file to a group
+mdadm: check the status of RAID devices
+hda: IDE
+sda: SCSI
+md0: RAID
+fd0: First floppy drive
+/etc/rc.d/rc: invokes the runlevel scripts, is reponsible for starting/stopping services when the runlevel changes
+/etc/rc.d/rc.local: run scripts when startup
+Identifier:RunLevel:Action:Command

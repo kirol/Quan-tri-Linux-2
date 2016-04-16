@@ -1,0 +1,2 @@
+visudo cap quyen 
+thi moi lan chay lenh go sudo + ten lenh
